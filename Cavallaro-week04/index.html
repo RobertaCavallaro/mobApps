@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cavallaro week 04</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- INPUT -->
+    <form id="fmSaveData">
+      <label>Name: </label>
+      <input type="text" placeholder="Spiderman" required id="InName" />
+      <br />
+      <label>Genre: </label>
+      <input type="text" placeholder="Adventure" required id="InGenre" />
+      <br />
+      <label>Date released: </label>
+      <input type="number" placeholder="2016" required id="InDate" />
+      <br />
+      <textarea placeholder="Write a review here..." id="InReview"></textarea>
+      <br />
+      <!-- OUTPUT -->
+      <input type="submit" value="Submit" id="fmShowData" />
+      <input type="reset" value="Cancel" />
+    </form>
+
+    <div id="showingData">placeholder</div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+body {
+  background-color: aquamarine;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#fmSaveData {
+  background-color: pink;
+  padding: 2em;
+  border-radius: 1em;
+  margin: 1em;
+}
+#fmSaveData label {
+  float: left;
+  inline-size: -webkit-fill-available;
+  height: 22px;
+  font-weight: bold;
+}
+#fmSaveData textarea {
+  margin-top: 1em;
+  inline-size: -webkit-fill-available;
+}
